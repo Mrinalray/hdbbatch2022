@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 300;
+    margin: 5px 0 15px 0;
+}
+
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Student Cards */
+#studentList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.student-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.student-card:hover {
+    transform: translateY(-8px);
+}
+
+.student-card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.student-card h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+}
+
+.student-card a {
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.student-card a:hover {
+    color: #00ffcc;
+}
+
+/* Footer */
+footer {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+}  
